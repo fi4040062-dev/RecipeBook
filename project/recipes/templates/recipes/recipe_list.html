@@ -1,0 +1,20 @@
+{% extends 'recipes/base.html' %}
+
+{% block title %} recipes list{% endblock %}
+
+{% block content %}
+ <h1>recipes list</h1> 
+
+<ul>
+  {% for recipe in recipes %}
+    <li>
+      <a href="{% url 'recipe_detail' recipe.id %}">{{ recipe.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+{% endblock %}
+
+
+
+
+    

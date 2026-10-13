@@ -1,0 +1,16 @@
+{% extends 'recipes/base.html' %}
+{% block title %}  sign up{%endblock%}
+{% block content %}
+
+<form method="POST" action="">
+  <h1>sign up</h1> 
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">sign up</button>
+
+
+<hr>
+<h3>already have an account?</h3>
+<a href="{% url 'login' %}">log in</a>
+</form>
+{% endblock %}

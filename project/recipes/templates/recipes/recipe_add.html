@@ -1,0 +1,10 @@
+{% extends 'recipes/base.html' %}
+{% block title %}  add recipe{%endblock%}
+{% block content %}
+ <h1>{{title}}</h1>
+<form method = "POST" enctype="multipart/form-data">
+    {%csrf_token%}
+    {{form.as_p}}
+    <button type = "submit">Submit</button>
+</form>
+{% endblock %}

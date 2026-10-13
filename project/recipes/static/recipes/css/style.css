@@ -1,0 +1,215 @@
+
+nav{
+background-color: rgb(151, 12, 12);
+padding: 30px;
+
+margin: 0px;
+text-align: center;
+margin-bottom: 40px;
+
+}
+
+nav a{
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+text-decoration: none;
+margin: 0 10px;
+padding: 8px 15px;
+background-color: rgb(0, 0, 0);
+border-radius: 9px;
+transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover{
+    color: #070707;
+    background-color: #970C0C;
+    transform: scale(1.1);
+} 
+
+
+
+
+.id{
+  background-image: url('/media/food_images/food.jpg'); 
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: 90cap;
+  height: 80vh;
+  width: 100%;
+}
+
+.id p{
+    text-align: center;
+    margin-left: 450px;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: larger;
+}
+h1{
+   text-align: center;
+   text-decoration:underline;
+}
+
+p{
+  font-size: large;  
+}
+
+.site-footer{
+  width: 100%;
+  border: 30px;
+  border-radius: 0px;
+  background-color: rgb(123, 123, 123);
+  padding: 20px 10px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+
+}
+
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px; 
+}
+
+.footer ul li{
+    font-size: large;
+}
+.footer ul li a {
+    color: #dddddd;
+    font-size: 15px;
+    background-color: #000000;
+    margin-left: 0;
+    
+}
+.social-links li{
+   display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-bottom{
+    border-top: 1px solid #333;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+form{
+  background-color: #928e8e;
+  border: 30pt;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column; /* يحط العناصر فوق بعض عموديًا */
+  align-items: center;    /* توسيط العناصر داخل الفورم أفقيًا */
+  margin-left: 40cap;
+  width: 30%;
+ 
+  
+}
+
+form h1{
+  font-family:sans-serif ,Arial, Helvetica,  ;
+  text-decoration: none;
+
+}
+
+form button{
+  background-color: #000000;
+  color: white;
+  width: 50%;
+  border: 30px;
+  border-radius:50px ;
+  height: 30px;
+  cursor: pointer;
+}
+
+form a{
+  margin-top:0 ;
+
+}
+
+form input{
+  margin: 0px;
+}
+
+ul {
+    color: rgb(151, 12, 12); 
+    font-size: x-large;      
+    list-style-type: disc;   
+    padding-left: 20px;      
+}
+
+ul li a {
+    color: black;             
+    font-size: x-large;       
+    background-color: rgb(255, 255, 255); 
+    padding: 0px 10px;        
+    text-decoration: none;  
+    display: inline-block;    
+}
+
+ul li a:hover {
+    color: red;               
+    background-color: rgb(230, 230, 230); 
+}
+
+
+a{
+color: rgb(255, 255, 255);
+font-size: 15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+text-decoration: none;
+
+margin: 20px;
+padding: 5px;
+background-color: rgb(52, 2, 2);
+border-radius: 50px; 
+transition: background-color 0.3s ease, transform 0.2s ease;
+}
+a:hover{
+    color: #070707;
+    background-color: #970C0C;
+    transform: scale(1.1);
+}
+p{
+    max-width: 300px;
+    max-height: fit-content;
+    font-size: x-large;
+    font-weight: bolder;
+    border: 30px;
+    border-radius: 10px ;
+    background-color: #928e8e;
+    transition: transform 0.3s ease ;
+}
+p:hover{
+     transform: scale(1.05);
+}
+
+
+.image{
+   text-align: center;
+}
+.image img {
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.image img:hover {
+  transform: scale(1.05);
+}
+
+
+
